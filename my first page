@@ -1,0 +1,26 @@
+<!DOCUMENT html>
+<html>
+<head>
+
+<title>
+  Hello Word
+</title>
+</head>
+<body>
+<h1>
+MY FIRST WEB PAGE
+</h1>
+<h2>
+1.This is google
+</h2>
+We all love google
+<br/>
+<a href="http://www.google.com" title ="Google" target="_blank" style="color:green">Go go google</a>
+<h2>
+2.This is YNET
+</h2>
+We all love YNET
+<br/>
+<a href="http://www.ynet.co.il" title ="YNET" target="_blank" style="color:yellow">Go go YNET</a>
+</body>
+</html>
