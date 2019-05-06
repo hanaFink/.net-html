@@ -1,0 +1,40 @@
+<html>
+<head>
+
+</head>
+<bode>
+<br/>
+  <form action="ynet.co.il" method="post">
+  First Name
+  <input type="text" required name="FirstName" placeholder="enter First Name">
+  <br/>
+  <br/>
+  Last Name
+   <input type="text" required name="LastName" placeholder="enter Last Name">
+    <br/>
+     <br/>
+  Email
+   <input type="email" required name="email" placeholder="enter Email">
+    <br/>
+     <br/>
+ Age
+   <input type="number" required name="Age" placeholder="enter Age" min="1">
+    <br/>
+     <br/>
+     City
+     <br/>
+    <select name="City">
+    <option value="Tel Aviv">Tel Aviv</option>
+    <option value="Rehovot">Rehovot</option>
+    </select>
+    <br/>
+   <input type="radio" required name="gender" placeholder="enter Town">
+   Mail
+   <br/>
+      <input type="radio" required name="gender" placeholder="enter Town">
+   Femail
+
+<button type="submit">
+send</button>
+  </form>
+</bode>
