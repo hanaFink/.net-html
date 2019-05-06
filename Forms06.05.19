@@ -1,40 +1,81 @@
 <html>
 <head>
+<style>
+*
+{
+background:gray
+}
 
+.line
+{
+  height:50px;
+  width:100%;
+  padding:2%;
+  margin:0px;
+}
+
+.line input
+{
+  width: 100%;
+}
+
+.secondline
+{
+    height:50px;
+  width:80%;
+  padding:2%;
+  margin:0px;
+}
+</style>
 </head>
 <bode>
+
 <br/>
   <form action="ynet.co.il" method="post">
-  First Name
+  <div class="line">
+    First Name
   <input type="text" required name="FirstName" placeholder="enter First Name">
+  </div>
+
   <br/>
   <br/>
+    <div class="line">
   Last Name
    <input type="text" required name="LastName" placeholder="enter Last Name">
+   </div>
     <br/>
      <br/>
+  <div class="line">
   Email
    <input type="email" required name="email" placeholder="enter Email">
+     </div>
     <br/>
      <br/>
+       <div class="line">
  Age
    <input type="number" required name="Age" placeholder="enter Age" min="1">
     <br/>
      <br/>
+          </div>
+       <div class="line">
      City
      <br/>
     <select name="City">
     <option value="Tel Aviv">Tel Aviv</option>
     <option value="Rehovot">Rehovot</option>
+     
     </select>
+      </div>
     <br/>
+   <div class="line">
    <input type="radio" required name="gender" placeholder="enter Town">
    Mail
    <br/>
       <input type="radio" required name="gender" placeholder="enter Town">
    Femail
-
+   </div>
 <button type="submit">
 send</button>
   </form>
 </bode>
+</html>
