@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>
+  The future of bigdata
+  https://www.talend.com/resources/future-big-data/
+</title>
+<style>
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+</style>
+
+</head>
+<body>
+<h1>
+<!DOCTYPE html>
+<html>
+<head>
+<title>
+  The future of bigdata
+  https://www.talend.com/resources/future-big-data/
+</title>
+
+</head>
+<body >
+
+ <img src="https://www.rhipe.com/wp-content/uploads/2012/10/Big-Data-Keywords.jpg" width="500" hight="300"> 
+<h1 style="text-align:center;color:blue";>
+The Future of Big Data
+</h1>
+<p>
+Early this century the rise of the relational database, public web access, wireless, and other technologies made the study and management of massive data sets a real and present challenge that needed a name. In July of 2013 the <i>Oxford English Dictionary</i> adopted the phrase, <strong>“big data”</strong>, but it’s been around since as early as World War II to apply to working with massive amounts of information.
+</p>
+<p>
+Big data refers to data sets that are too large and complex for traditional 
+<a href="https://www.talend.com/resources/what-is-data-processing" title="data processing" target="_blank">data processing</a>
+and <a href="https://www.talend.com/resources/what-is-data-management/" title="data management"  target="_blank" >   data management applications</a>.  Big Data became more popular with the advent of mobile and IoT technology, with people producing more and more data (geolocation, social apps, fitness apps, etc…) and accessing digital data on their devices.
+</p>
+<p>
+It has also become the catch-all term for gathering, analyzing, and using massive amounts of digital information to improve business operations. As data sets continue to grow, and applications continue to become more real-time, big data and big data processing are more and more moving to the cloud.
+</p>
+<h2>
+Why is Big Data So Important?
+</h2>
+<p>
+Consumers live in a digital world of instant expectation. From digital sales transactions to marketing feedback and refinement, everything in today’s cloud-based business world moves fast. All these rapid transactions produce and compile data at an equally speedy rate. Putting this information to good use in real-time often means the difference between capitalizing on information for a 360 view of the target audience, or losing customers to competitors who do.
+</p>
+<p>
+The possibilities (and potential pitfalls) of managing and utilizing data operations are endless. Here are a few of the most important ways big data can transform an organization:
+</p>
+<p>
+    &#8226; <b>Business intelligence</b> - Coined to describe the ingestion, analysis, and application of big data for the benefit of an organization, business intelligence is a critical weapon in the fight for the modern market. By charting and predicting activity and challenge points, business intelligence puts an organization’s big data to work on behalf of its product.
+    </p>
+<p>
+    &#8226;
+   <b> Innovation </b>- By analyzing a periscope-level view of the myriad interactions, patterns, and anomalies taking place within an industry and market, big data is used to drive new, creative products and tools to market.
+
+    Imagine “Acme Widget Company” reviews its big data picture and discovers that in warmer weather, Widget B sells at a rate of nearly double Widget A in the Midwest, while sales remain equal on the West Coast and in the South. Acme could develop a marketing tool that pushes social media campaigns that target Midwestern markets with unique advertising highlighting the popularity and instant availability of Widget B. In this way, Acme can put its big data to work with new or customized products and ads that maximize profit potential.
+</p>
+<p>
+
+
+    &#8226;
+   <b> Lowered cost of ownership</b> - If a penny saved is a penny earned, then big data brings the potential to earn lots of pennies. IT professionals measure operations not by the price tags on equipment, but on a variety of factors, including annual contracts, licensing, and personnel overhead.
+
+    The insights unearthed from big data operations can quickly crystalize where resources are being underutilized and what areas need more attention. Together this information empowers managers to keep budgets flexible enough to operate in a modern environment.
+    </p>
+<p>
+Organizations and brands in almost every industry are using big data to break new ground. Shipping companies rely on it to calculate transit times and set rates. Big data is the backbone of groundbreaking scientific and medical research, bringing the ability to analyze and study at a rate never before available. And it impacts how we live each day.
+</p>
+<h2>
+The Five Vs of Big Data +1
+</h2>
+The Five Vs of Big Data +1
+
+Big Data is often qualified by the 5 Vs by industry experts, each of these should be addressed individually and with respect to how it interacts with the other pieces.
+<br>
+<b>Volume</b> - Develop a plan for the amount of data that will be in play, and how and where it will be housed.
+<br>
+<b>Variety</b> - Identify all the different sources of data in play in an ecosystem and acquire the right tools for ingesting it.
+<br>
+<b>Velocity</b> - Again, speed is critical in modern business. Research and deploy the right technologies to ensure the big data picture is being developed in as close to real-time as possible.
+<br>
+<b>Veracity</b> - Garbage in, garbage out, so make sure the data is accurate and clean.
+<br>
+<b>Value</b> - Not all gathered environmental information is of equal importance, so build a big data environment that surfaces actionable business intelligence in easy to understand ways.
+<br>
+And we’d like to add one more:
+<br>
+<b>Virtue</b> –the ethics of Big Data usage also need to be addressed in light of all the regulations for data privacy and compliance.
+<p>
+
+
+ <table  style="width:100%">
+ <h3 >
+ Table Sample
+  </h3>
+  <tr>
+    <th>Year</th>
+    <th>Expectation</th>
+  </tr>
+  <tr>
+    <td> 2019</td>
+    <td>the big data market is expected to grow by 20%</td>
+
+  </tr>
+  <tr>
+    <td>2020</td>
+    <td>every person will generate 1.7 megabytes in just a second</td>
+
+  </tr>
+</table> 
+<image src="https://www.sas.com/el_gr/insights/big-data/what-is-big-data/_jcr_content/socialShareImage.img.png" width="700" hight="10">
+</image>
+</body>
+</html>
