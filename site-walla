@@ -1,0 +1,115 @@
+
+<head>
+
+</head>
+<body>
+<style>
+#box
+{
+  background-color:black;
+  color:white;
+  width: 100%;
+ border:solid 3px green;
+  height:50 px;
+}
+#b{
+
+   position: fixed;
+  border: 1px solid blue;
+  background-color: black;
+  color:white;
+  width: 100%;
+  height: 100px;
+  top: 0;
+  left: 0;
+  right: 0;
+  
+}
+}
+</style>
+<div id="b" >
+<img src="https://www.walla.co.il/images/logo2.svg">
+<span>
+<form method="get">
+<input type="text" value="google" color:red; >
+<input type="submit" value="search">
+</form>
+</span>
+<a href="https://www.hamal.co.il/" style="background-color:orange" width="2px"
+  height="2px " ><img src="https://www.hamal.co.il/public/assets/images/logo.svg"></a>
+</div>
+<div>
+dfffffffffffffffffff
+</div>
+<div>
+dfffffffffffffffffff
+</div>
+<div>
+dfffffffffffffffffff
+</div>
+<div>
+dfffffffffffffffffff
+</div>
+<div>
+dfffffffffffffffffff
+</div>
+<div>
+dfffffffffffffffffff
+</div>
+<div>
+dfffffffffffffffffff
+</div>
+<div>
+dfffffffffffffffffff
+</div>
+<div>
+dfffffffffffffffffff
+</div>
+<div>
+dfffffffffffffffffff
+</div>
+<div>
+dfffffffffffffffffff
+</div>
+<div>
+dfffffffffffffffffff
+</div>
+<div>
+dfffffffffffffffffff
+</div>
+<div>
+dfffffffffffffffffff
+</div>
+<div>
+dfffffffffffffffffff
+</div>
+<div>
+dfffffffffffffffffff
+</div>
+<div>
+dfffffffffffffffffff
+</div>
+<div>
+dfffffffffffffffffff
+</div>
+<div>
+dfffffffffffffffffff
+</div>
+<div>
+dfffffffffffffffffff
+</div>
+<div>
+dfffffffffffffffffff
+</div>
+<div>
+dfffffffffffffffffff
+</div>
+<div>
+dfffffffffffffffffff
+</div>
+<div>
+dfffffffffffffffffff
+</div>
+
+
+</body>
