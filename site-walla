@@ -13,11 +13,14 @@
 .positionl
 {
   float:left;
-  margin-right :20px;
+  margin-right :50px;
+  margin-left:50px;
   }
 .positionr
 {
   float:right;
+   margin-right :50px;
+  margin-left:50px;
   }
   
   .Firstbox{
@@ -86,9 +89,9 @@
 
 
 </div>
-<float class="floatt">
+<f class="floatt">
   <img src="https://img.wcdn.co.il/f_auto/2/7/5/4/2754418-46.png">
-</float>
+</f>
 
 
 </body>
