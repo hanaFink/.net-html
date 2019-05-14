@@ -4,11 +4,16 @@
 </head>
 <body>
 <style>
-.floatt
+.adv
 {
   position:fixed;
-  top:40%;
-  left:5px;
+  top:101px;
+}
+div
+{
+ margin-left:120px;
+ 
+  
 }
 .positionl
 {
@@ -19,13 +24,13 @@
 .positionr
 {
   float:right;
-   margin-right :50px;
+  margin-right :50px;
   margin-left:50px;
   }
   
   .Firstbox{
 
-  position: fixed;
+  position: absolute;
   border: 1px solid blue;
   background-color: black;
   color:white;
@@ -41,11 +46,12 @@
   background-color:black;
   color:white;
   width: 100%;
-  border:solid 3px green;
+  border:solid 3px black;
   height:50 px;
-  position:absolute;
+  position:fixed;
   top: 51px;
     left: 0;
+    float:left;
 }
 
 .Spanbox
@@ -58,9 +64,21 @@
  padding-right :5px;
  padding-left :5px;
 }
+.newsbox
+{
+
+margin-top:100px;
+margin-bottom:10px;
+max-width:100%;
+float:left;
+
+}
+img {
+  float: left;
+}
 
 </style>
-<div class="Firstbox" >
+<div1 class="Firstbox" >
 <span span class="positionr" >
 <img src="https://www.walla.co.il/images/logo2.svg">
 </span>
@@ -74,9 +92,9 @@
 </form>
 </span >
  
-</div>
+</div1>
 
-<div class="Secondbox">
+<div2 class="Secondbox">
 <span class="Spanbox">
   news
 </span>
@@ -88,10 +106,54 @@
 </span>
 
 
-</div>
-<f class="floatt">
+</div2>
+<p class="adv">
   <img src="https://img.wcdn.co.il/f_auto/2/7/5/4/2754418-46.png">
-</f>
+</p>
+
+
+<div class="newsbox">
+
+<img src="https://img.wcdn.co.il/f_auto,w_700/2/7/5/4/2754846-46.jpg" style="width:170px;height:170px; ">
+<span style="font-size:2em; font-weight: bold;font-family:david">יפה, קרירה ומשגעת: הארץ שאליה תברחו מהקיץ הישראלי הלוהט</span>
+<br/>
+עמקים ציוריים, רפטינג בנהר שוצף, פיורדים מרהיבים שיגרמו לנשימה שלכם להיעצר וערים יפהפיות ומלאות קסם. נורבגיה היא מדינה של טבע וים והביקור בה הוא חגיגה של מרחבים ונופים שיהפנטו אתכם
+
+</div>
+
+<div>
+<div>
+
+</div>
+hfghgfh
+</div>
+<div>
+hfghgfh
+</div>
+<div>
+hfghgfh
+</div><div>
+hfghgfh
+</div><div>
+hfghgfh
+</div><div>
+hfghgfh
+</div>
+<div>
+hfghgfh
+</div>
+<div>
+hfghgfh
+</div><div>
+hfghgfh
+</div><div>
+hfghgfh
+</div><div>
+hfghgfh
+</div><div>
+hfghgfh
+</div>
+
 
 
 </body>
