@@ -67,7 +67,7 @@
 <span  >
 <form method="get">
 <input type="text" value="Google" style="color:red;font-weight: bold;"; >
-<input type="submit" value="search">
+<input type="submit" value="search" style="color:blue; background-color:red; border:red solid 2px">
 </form>
 </span >
  
