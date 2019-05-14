@@ -4,17 +4,38 @@
 </head>
 <body>
 <style>
-#box
+.floatt
+{
+  position:fixed;
+  top:40%;
+  left:5px;
+}
+.positionl
+{
+  float:left;
+}
+.positionc
+{
+  float:center;
+}
+.positionr
+{
+  float:right;
+  }
+.box
 {
   background-color:black;
   color:white;
   width: 100%;
  border:solid 3px green;
   height:50 px;
+  width:10 px;
+  position:absolute;
+  top: 101px;
 }
 #b{
 
-   position: fixed;
+  position: fixed;
   border: 1px solid blue;
   background-color: black;
   color:white;
@@ -25,91 +46,129 @@
   right: 0;
   
 }
+.b1
+{
+ border:1px solid grey;
+ width:10%;
+ font-weight: bold;
+ font-size: 1em;
+ font-family: "arial";
+ padding :2px
 }
+
 </style>
 <div id="b" >
+<span span class="positionr" >
 <img src="https://www.walla.co.il/images/logo2.svg">
-<span>
+</span>
+<span class="positionc" >
 <form method="get">
-<input type="text" value="google" color:red; >
+<input type="text" value="Google" style="color:red;font-weight: bold;"; >
 <input type="submit" value="search">
 </form>
 </span>
-<a href="https://www.hamal.co.il/" style="background-color:orange" width="2px"
-  height="2px " ><img src="https://www.hamal.co.il/public/assets/images/logo.svg"></a>
-</div>
-<div>
-dfffffffffffffffffff
-</div>
-<div>
-dfffffffffffffffffff
-</div>
-<div>
-dfffffffffffffffffff
-</div>
-<div>
-dfffffffffffffffffff
-</div>
-<div>
-dfffffffffffffffffff
-</div>
-<div>
-dfffffffffffffffffff
-</div>
-<div>
-dfffffffffffffffffff
-</div>
-<div>
-dfffffffffffffffffff
-</div>
-<div>
-dfffffffffffffffffff
-</div>
-<div>
-dfffffffffffffffffff
-</div>
-<div>
-dfffffffffffffffffff
-</div>
-<div>
-dfffffffffffffffffff
-</div>
-<div>
-dfffffffffffffffffff
-</div>
-<div>
-dfffffffffffffffffff
-</div>
-<div>
-dfffffffffffffffffff
-</div>
-<div>
-dfffffffffffffffffff
-</div>
-<div>
-dfffffffffffffffffff
-</div>
-<div>
-dfffffffffffffffffff
-</div>
-<div>
-dfffffffffffffffffff
-</div>
-<div>
-dfffffffffffffffffff
-</div>
-<div>
-dfffffffffffffffffff
-</div>
-<div>
-dfffffffffffffffffff
-</div>
-<div>
-dfffffffffffffffffff
-</div>
-<div>
-dfffffffffffffffffff
+<span span class="positionl">
+<a href="https://www.hamal.co.il/"  ><img src="https://www.hamal.co.il/public/assets/images/logo.svg"></a>
+ </span> 
 </div>
 
+<div class="box">
+<span class="b1">
+  news
+</span>
+<span class="b1">
+  sport
+</span>
+
+</div>
+<float class="floatt">
+  <img src="https://img.wcdn.co.il/f_auto/2/7/5/4/2754418-46.png">
+</float>
+<div>
+dfffffffffffffffffff
+</div>
+<div>
+dfffffffffffffffffff
+</div>
+<div>
+dfffffffffffffffffff
+</div>
+<div>
+dfffffffffffffffffff
+</div>
+<div>
+dfffffffffffffffffff
+</div>
+<div>
+dfffffffffffffffffff
+</div>
+<div>
+dfffffffffffffffffff
+</div>
+<div>
+dfffffffffffffffffff
+</div>
+<div>
+dfffffffffffffffffff
+</div>
+<div>
+dfffffffffffffffffff
+</div>
+<div>
+dfffffffffffffffffff
+</div>
+<div>
+dfffffffffffffffffff
+</div>
+<div>
+dfffffffffffffffffff
+</div>
+<div>
+dfffffffffffffffffff
+</div>
+<div>
+dfffffffffffffffffff
+</div>
+<div>
+dfffffffffffffffffff
+</div>
+<div>
+dfffffffffffffffffff
+</div>
+<div>
+dfffffffffffffffffff
+</div>
+<div>
+dfffffffffffffffffff
+</div>
+<div>
+dfffffffffffffffffff
+</div>
+<div>
+dfffffffffffffffffff
+</div>
+<div>
+dfffffffffffffffffff
+</div>
+<div>
+dfffffffffffffffffff
+</div>
+<div>
+dfffffffffffffffffff
+</div>
+dfffffffffffffffffff
+</div>
+<div>
+dfffffffffffffffffff
+</div>
+<div>
+dfffffffffffffffffff
+</div>
+<div>
+dfffffffffffffffffff
+</div>
+<div>
+dfffffffffffffffffff
+</div>
 
 </body>
