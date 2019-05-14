@@ -50,7 +50,7 @@ div
   height:50 px;
   position:fixed;
   top: 51px;
-    left: 0;
+  left: 0;
     float:left;
 }
 
@@ -74,7 +74,7 @@ float:left;
 
 }
 img {
-  float: left;
+float: left;
 }
 
 </style>
@@ -112,7 +112,7 @@ img {
 </p>
 
 
-<div class="newsbox">
+<div class="newsbox" style="text-align:right">
 
 <img src="https://img.wcdn.co.il/f_auto,w_700/2/7/5/4/2754846-46.jpg" style="width:170px;height:170px; ">
 <span style="font-size:2em; font-weight: bold;font-family:david">יפה, קרירה ומשגעת: הארץ שאליה תברחו מהקיץ הישראלי הלוהט</span>
