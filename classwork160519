@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+
+    <title>
+        sample 
+    </title>
+    <style>
+        .header {
+            width: 98%;
+            height: 100px;
+            border: 2px dashed green;
+            float: left;
+        }
+        .content
+        {
+            width:98%;
+            min-height:500px;
+            border:2px dashed;
+            float:left;
+
+        }
+        .banner-colomn {
+            width: 30%;
+            height: 300px;
+            border: 2px dashed;
+            float: left;
+        }
+        .article-colomn
+        {
+            width: 70%;
+            height: 100px;
+            border: 2px solid blue;
+            float: left;
+        }
+  
+        .nav
+        {
+            width:98%;
+            height:20px;
+            border:2px  solid grey;
+            float:left;
+ 
+        }
+        .clear{
+            clear:both;
+        }
+        .header img
+        {
+            width:90px;
+            height:90px;
+            margin:5px;
+
+        }
+        .nav .searchbox
+        {
+            width:30%;
+            height:10px;
+        }
+        .nav .searchbox input{
+           float:right;
+           font-size:12px;
+           margin:1px 0px 0px 1px;
+           width:50px;
+        }
+            .nav .searchbox button {
+                float: right;
+                font-size: 12px;
+                margin: 1px 0px 0px 1px;
+                width: 50px;
+            }
+        .nav .menu
+        {
+            width:70%;
+            color:lightyellow;
+            float:left;
+        }
+        .nav .menu span:hover {
+          background-color: #808080;
+           color: red;
+        
+        }
+        .banner-colomn img
+        {
+width:200px;
+border:1px;
+float:left;
+margin:1px 1px 1px 1px;
+        }
+        .fixe
+    </style>
+</head>
+<body>
+    <div class="header">
+     <img src="https://www.freelogodesign.org/Content/img/logo-ex-2.png" alt="logo" />
+
+    </div>
+    <div class="nav ">
+        <div class="menu">
+            <span>file </span>
+            <span>edit </span>
+            <span>file </span>
+        </div>
+        <div class="searchbox">
+            <span>
+                <form >
+                    <input type="text" placeholder="search" />
+                    <button >Go</button>
+                </form>
+                     
+            </span>
+        </div>
+
+    </div>
+    <div class="content clear">
+        <div class="article-colomn ">
+
+        </div>
+    </div>
+    <div class="banner-colomn ">
+        <div class="banner">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRnWz6LGeffvntR3EUPOVakei49y2eG38ZRDra6loEO2tRCc1c0" />
+       
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRnWz6LGeffvntR3EUPOVakei49y2eG38ZRDra6loEO2tRCc1c0" />
+       
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRnWz6LGeffvntR3EUPOVakei49y2eG38ZRDra6loEO2tRCc1c0" />
+            </div>
+        </div>
+
+
+    
+
+</body>
+</html>
