@@ -93,12 +93,114 @@ Do not confuse JavaScript with the Java programming language. Both "Java" and "J
 <button type="button" onclick="c1()">
 change header1
 </button>
+<div>
 
-<button type="button"  onclick="c2()">
 
 change color of heder1
+<br/>
+<input type="radio" name="rColors" value="Red" /> Red <br />
+<input type="radio" name="rColors" value="Yellow" /> Yellow <br />
+<input type="radio" name="rColors" value="Green" /> Green <br />
+<input type="button" value="ShowColor" onclick="ShowSelectedColor()" />
+
+</div>
+</div>
+
+<div>
+
+<textarea id="inheader2" >
+
+ 
+
+</textarea>
+
+<br/>
+
+<button type="button" onclick="c3()">
+
+change header2
+
+</button>
+
+<button type="button" onclick="c4()">
+
+change color of heder2
 
 </button>
 
 </div>
+
+<div>
+
+<textarea id="intext">
+
+ 
+
+</textarea>
+
+<br/>
+
+<button type="button" onclick="c5()">
+
+change text
+
+</button>
+
+<button type="button" onclick="c6()">
+
+change color of text
+
+</button>
+
+</div>
+
+<script>
+
+ function c1()
+
+{
+var y=document.getElementById("inheader1").value;
+
+var x=document.getElementById("header1").innerHTML=y;
+}
+
+
+function c3()
+{
+var y=document.getElementById("inheader2").value;
+
+var x=document.getElementById("header2").innerHTML=y;
+
+}
+
+function c5()
+
+{
+var y=document.getElementById("intext").value;
+
+var x=document.getElementById("textp").innerHTML=y;
+
+}
+
+function ShowSelectedColor()
+{
+  var rb = document.getElementsByName("rColors");
+  var val;
+  for (var i = 0; i < rb.length; i++)
+            {
+      if (rb[i].checked)
+         val = rb[i].value;
+        document.getElementById("header1").style.color=val;
+
+ }   
+  alert("Selected color is " + val);
+}
+
+</script>
+
+ 
+
+</body>
+
+</html>
 
