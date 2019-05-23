@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link type="text/css" href="site.css" rel="stylesheet" />   
+<style>
+    #profile
+    {
+        width:48%;
+        float:right;
+        padding:0.5%;
+    }
+    #editprofile
+    {
+        
+        width:48%;
+        floar:left;
+    }
+    img
+    {
+        max-width:60%;
+    }
+    .input
+    {
+        margin:0.5%;
+        width:50%;
+    }
+</style>
+</head>
+<body>
+<div id="profile">
+    <h1>Profile</h1>
+    <img src="https://cdn.pixabay.com/photo/2017/02/23/13/05/profile-2092113_960_720.png" />
+    <br/>
+    Name: 
+    <div id="Name">
+      
+    </div>
+    <br />
+    Email: 
+    <div id="Email">
+        
+    </div>
+    <br />
+    Hobbies 
+    <div name="Hobbies">
+      
+        <br />
+    </div>
+</div>
+ <div id="editprofile">
+     <h1>Edit Profile</h1>
+     <div id="eName">
+         Name  <input type="text" />
+     </div>
+     <div id="eEmail">
+         Email  <input type="text" />
+     </div>
+     <div id="eHobbies">
+         Hobbies <input type="text" name="eHobbies" />
+     </div>
+     <button type="button" onclick="SaveAll();" >Save</button>
+ </div>
+  
+  <script >
+      var AName = document.getElementById("eName");
+      var BName = document.getElementById("Name");
+      var AEmale = document.getElementById("eEmail");
+      var BEmale = document.getElementById("Email");
+      var AHobbie = document.getElementsByName("eHobbies");
+      var BHobbie = Document.getElementsByName("Hobbies");
+      
+
+
+      function SaveAll()
+      {
+          BName.innerText = AName.value;
+          BEmale.innerText = AEmale.value;
+          BHobbie.innerText = AHobbie.value;
+
+     
+         
+      }
+  </script>
+</body>
+</html>
