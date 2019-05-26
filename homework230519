@@ -8,55 +8,79 @@
         width:48%;
         float:right;
         padding:0.5%;
+        margin: 0.5%;
+        border-bottom: 2px, blueviolet;
     }
     #editprofile
     {
         
         width:48%;
-        floar:left;
+        float:left;
+        padding:0.5%;
+        margin: 0.5%;
     }
     img
     {
-        max-width:60%;
+        max-width: 25%;
+        float: right;
     }
-    .input
-    {
-        margin:0.5%;
-        width:50%;
+    input {
+       
+        width: 50%;
+        height: 20px;
+        margin: 0.5%;
     }
+   
 </style>
 </head>
 <body>
-<div id="profile">
-    <h1>Profile</h1>
-    <img src="https://cdn.pixabay.com/photo/2017/02/23/13/05/profile-2092113_960_720.png" />
-    <br/>
-    Name: 
-    <div id="Name">
-      
-    </div>
-    <br />
-    Email: 
-    <div id="Email">
-        
-    </div>
-    <br />
-    Hobbies 
-    <div name="Hobbies">
-      
+    <div id="profile">
+        <h1>Profile</h1>
+        <img src="https://cdn.pixabay.com/photo/2017/02/23/13/05/profile-2092113_960_720.png" />
+        <br />
+        Name:
+        <div id="Name" style="text-decoration-line: underline;";>
+
+        </div>
+        <br />
+        Email:
+        <div id="Email"style="text-decoration-line: underline;">
+
+        </div>
+        <br />
+       
+        Hobbies:
+        <br />
+        <div name="Hobby" id="hobby" style="text-decoration-line: underline;" >
+        <br />
+        </div>
+   
         <br />
     </div>
-</div>
  <div id="editprofile">
      <h1>Edit Profile</h1>
-     <div id="eName">
-         Name  <input type="text" />
+
+     <div >
+         Name :<br/> 
+             <input id="eName" type="text" style="margin-left: 16px;"/>    
+         <br/> 
      </div>
-     <div id="eEmail">
-         Email  <input type="text" />
+     <br/> 
+     <div >
+         Email :
+         <br/>  <input id="eEmail" type="text" style="margin-left: 16px;"/>
+         <br/>
      </div>
-     <div id="eHobbies">
-         Hobbies <input type="text" name="eHobbies" />
+     <br/>
+     <div name="Adding" id="ad">
+         Hobbies :
+          <br/>
+         <span>
+         <input  type="text" name="eHobby" style="margin-bottom: 16px; margin-left: 16px; " >
+         
+            <button type="button" onclick="Add()" name="butt" >Add</button>
+        </span>
+         <br/>
      </div>
      <button type="button" onclick="SaveAll();" >Save</button>
  </div>
@@ -66,20 +90,46 @@
       var BName = document.getElementById("Name");
       var AEmale = document.getElementById("eEmail");
       var BEmale = document.getElementById("Email");
-      var AHobbie = document.getElementsByName("eHobbies");
-      var BHobbie = Document.getElementsByName("Hobbies");
-      
+      var AHobby = document.getElementsByName("eHobby");
+      var BHobby = document.getElementsByName("Hobby");
+      var counter = 0;
+           
+      function Add()
+      {
+        counter++;
 
-
+        var hob=AHobby[0];
+        var hob1=hob.cloneNode(true);/* ירושה של כל התכונות כולל טקסט פנימי */
+         AHobby[counter]=document.getElementById("ad").appendChild(hob1); /*הכנסת אלמנט לפי מיקום*/
+         AHobby[counter].value = " ";/*איפוס טקסט בשורה*/
+          
+        var elmn1=document.getElementsByName("butt")[0];
+        var cln1=elmn1.cloneNode(true);
+         document.getElementById("ad").appendChild(cln1);
+      }
+     
       function SaveAll()
       {
+          
           BName.innerText = AName.value;
           BEmale.innerText = AEmale.value;
-          BHobbie.innerText = AHobbie.value;
+          for (var i = 0; i < AHobby.length;i++)
+              {
+                var hob = BHobby[0];
+                var hob1 = hob.cloneNode(true);/* ירושה של כל התכונות כולל טקסט פנימי */
 
-     
-         
+              BHobby[i] = document.getElementById("hobby").appendChild(hob1);
+              /*הכנסת אלמנט לפי מיקום*/
+            
+              BHobby[i].innerHTML ="<br/>"+AHobby[i].value+"<br/>";
+              BHobby[i].style.textDecoration="underline";
+             
+
+          }
+       
+          
       }
+    
   </script>
 </body>
 </html>
